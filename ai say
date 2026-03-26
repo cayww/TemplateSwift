@@ -1,0 +1,1 @@
+使用randomName.txt里的随机字符串混淆代码,项目中不管是文件名,文件夹名称还是类名,只要是randomName+数字的,都改成randomName.txt里的随机字符串
