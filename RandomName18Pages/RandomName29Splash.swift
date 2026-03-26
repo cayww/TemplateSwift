@@ -6,7 +6,7 @@ struct RandomName29Splash: View {
   var body: some View {
     ZStack {
       GeometryReader { _ in
-        Image("SplashBg").resizable().scaledToFill().ignoresSafeArea()
+        Image("DefaultBg").resizable().scaledToFill().ignoresSafeArea()
       }
       VStack {
         Spacer().frame(height: 150.h)

@@ -21,7 +21,7 @@ struct RandomName25Login: View {
       let _ = forceRedraw
     #endif
     GeometryReader { geometry in
-      Image("SplashBg").resizable().scaledToFill().ignoresSafeArea()
+      Image("DefaultBg").resizable().scaledToFill().ignoresSafeArea()
       Image("Assets/projectName_sign_rw").resizable().scaledToFit().frame(
         width: 59.w, height: 116.h
       )
